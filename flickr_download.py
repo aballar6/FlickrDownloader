@@ -47,7 +47,6 @@ while finished:
         print("Next is :" + urls[counter+1])
         urllib.request.urlretrieve(urls[counter], args.o+f'{counter}.jpg') 
         counter = counter + 1
-        time.sleep(0.1)
     except IndexError:
         print("EOF")
         finished = False
