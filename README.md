@@ -5,6 +5,6 @@ An improved version of (https://gist.github.com/yunjey/14e3a069ad2aa3adf72dee93a
 
 Usage
 ```
-python3 install flickrapi
+pip3 install flickrapi
 ```
 Then just run it as normal
